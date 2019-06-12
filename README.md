@@ -28,3 +28,12 @@ There are various types of testing, like Unit, Integration and Functional(E2E) t
 * They are used when you want to test a complete flow like registering a user, making a payment and redirecting to proper pages, etc
 * They are slow + expensive
 * They require less maintenance and cover a bigger part of your application with saving you a lot of time.
+
+
+## Resources
+
+* [Appium vs Espresso](https://www.reddit.com/r/androiddev/comments/b50upz/appium_or_espresso_for_qa_team/)
+* [Testing Robots by Jake Wharton](https://academy.realm.io/posts/kau-jake-wharton-testing-robots/)
+* [Fundamental of Testing](https://developer.android.com/training/testing/fundamentals)
+* [Android Testing Patterns](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-6HWg_jyP0U1zrVLHn65b2)
+
