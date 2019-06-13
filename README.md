@@ -3,13 +3,18 @@ Contains notes on software testing.
 
 There are various types of testing, like Unit, Integration and Functional(E2E) testing.
 
+## In a gist
+
+Unit Tests -> Integration Tests -> Functional Tests
+
 ## Unit Testing
 
-* Generally for testing  small piece of code, isolated and alone.
+* Generally for testing small piece of code, isolated and alone.
 * If writing unit test is hard then it means your code is poorly designed. So it also helps  in writing better code.
 * They are also great for preventing regressions - bugs that occur repeatedly.
 * Unit testing is used in TDD. Its like a backbone.
-* If an app needs to make a successful database connection then it can't be test with unit testing.
+* If an app needs to make a successful database connection then it can't be tested with unit testing.
+* In procedural code, the units are often functions, in object oriented code, the units are classes.
 * They are fast + cheap.
 
 ## Integration Testing
@@ -29,6 +34,34 @@ There are various types of testing, like Unit, Integration and Functional(E2E) t
 * They are slow + expensive
 * They require less maintenance and cover a bigger part of your application with saving you a lot of time.
 
+## Testing on Android
+
+There are three types on android
+1. Unit(test) - JUnit5/ Mockito
+2. Intrumentation(androidTest) - JUnit/ Mockito
+3. UI(androidTest) - Expresso(Internal)/ Appium(External)
+
+#### 1. Unit
+
+* Runs on Local Computer
+* It runs on JVM
+* Very fast because emulator is not needed.
+* It's for testing java code
+
+#### 2. Intrumentation
+
+* Similar to local unit tests
+* Used for testing android specific stuff like activity, fragments, context, serviecs, etc
+* Need to run on real device or emulator(Roboelectric is used if you don't want to run it on emulator)
+
+#### 3. UI
+
+* Simulates the user flow  	
+* Tests the complete user journey from  high level
+
+### Mockito
+
+* Mocks the RestAPI/Database part in the methods/functions
 
 ## Resources
 
@@ -37,3 +70,6 @@ There are various types of testing, like Unit, Integration and Functional(E2E) t
 * [Fundamental of Testing](https://developer.android.com/training/testing/fundamentals)
 * [Android Testing Patterns](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-6HWg_jyP0U1zrVLHn65b2)
 
+## Books
+
+* [WorkingEffectivelyWithLegacyCode](https://archive.org/details/WorkingEffectivelyWithLegacyCode)
