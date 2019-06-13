@@ -5,7 +5,9 @@ There are various types of testing, like Unit, Integration and Functional(E2E) t
 
 ## In a gist
 
-Unit Tests -> Integration Tests -> Functional Tests
+* Unit Testing -> For testing any small _piece_ of code
+* Integration Testing -> For testing any small _component_ of the application
+* Functional Testing -> For testing the complete flow of the application(Basically automating the manual testing/ replicating the user actions)
 
 ## Unit Testing
 
