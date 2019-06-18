@@ -82,9 +82,6 @@ There are three types on android
 * [Corey Latislaw on TDD and Testing](https://fragmentedpodcast.com/episodes/13/)
 * [Junit4 tricks with Parameterized Enclosing tests](https://fragmentedpodcast.com/episodes/052/)
 * [Chiu-Ki Chan explains Mocking and Stubbing with Mockito](https://fragmentedpodcast.com/episodes/059/)
-* []()
-* []()
-* []()
 
 ### Books
 
