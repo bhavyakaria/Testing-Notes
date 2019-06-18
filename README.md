@@ -67,11 +67,25 @@ There are three types on android
 
 ## Resources
 
-* [Appium vs Espresso](https://www.reddit.com/r/androiddev/comments/b50upz/appium_or_espresso_for_qa_team/)
-* [Testing Robots by Jake Wharton](https://academy.realm.io/posts/kau-jake-wharton-testing-robots/)
+### Official Docs
 * [Fundamental of Testing](https://developer.android.com/training/testing/fundamentals)
+
+### Misc 
+* [Appium vs Espresso](https://www.reddit.com/r/androiddev/comments/b50upz/appium_or_espresso_for_qa_team/)
+
+### Videos
+* [Testing Robots by Jake Wharton](https://academy.realm.io/posts/kau-jake-wharton-testing-robots/)
 * [Android Testing Patterns](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-6HWg_jyP0U1zrVLHn65b2)
 
-## Books
+### Podcasts
+* [Welcome & Testing in Android](https://fragmentedpodcast.com/episodes/1/)
+* [Corey Latislaw on TDD and Testing](https://fragmentedpodcast.com/episodes/13/)
+* [Junit4 tricks with Parameterized Enclosing tests](https://fragmentedpodcast.com/episodes/052/)
+* [Chiu-Ki Chan explains Mocking and Stubbing with Mockito](https://fragmentedpodcast.com/episodes/059/)
+* []()
+* []()
+* []()
+
+### Books
 
 * [WorkingEffectivelyWithLegacyCode](https://archive.org/details/WorkingEffectivelyWithLegacyCode)
