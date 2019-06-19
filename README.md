@@ -65,6 +65,21 @@ There are three types on android
 
 * Mocks the RestAPI/Database part in the methods/functions
 
+### Espresso vs Appium
+
+| Criteria 	    	   | Espresso      | Appium        						    |
+| :----------------------: | :-----------: | :------------------------------------------------------------: | 
+| Language          	   | Java          | Many(Java, Python, Javascript, any that can make HTTP request) |
+| Supports          	   | Android Only  | Web, Android and iOS 					    |
+| Testing Philosopy 	   | Grey Box      | Black Box							    |
+| Speed 	    	   | Fast	   | Slow compared to Espresso					    |
+| Ease Of Setup     	   | Easy	   | Hard							    |
+| Dependencies On Code     | Yes	   | No								    |
+| Ease Of Writing Tests    | Easy for devs | Easy for testers						    |
+| Backers	`	   | Goolge	   | Open Source						    |
+| Suitable For		   | Android devs  | Testers/ QA testing Android & iOS apps			    |
+
+
 ## Resources
 
 ### Official Docs
