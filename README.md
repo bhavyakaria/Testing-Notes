@@ -76,7 +76,7 @@ There are three types on android
 | Ease Of Setup     	   | Easy	   | Hard							    |
 | Dependencies On Code     | Yes	   | No								    |
 | Ease Of Writing Tests    | Easy for devs | Easy for testers						    |
-| Backers	`	   | Goolge	   | Open Source						    |
+| Backers		   | Goolge	   | Open Source						    |
 | Suitable For		   | Android devs  | Testers/ QA testing Android & iOS apps			    |
 
 
